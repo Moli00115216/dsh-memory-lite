@@ -1,0 +1,30 @@
+{
+  "name": "dsh-memory-lite",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "A minimal cross-session memory plugin for DeepSeek Harness: remember tool + prompt injection, local JSON, no dependencies beyond systemPrompt/tools.",
+  "license": "MIT",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "memory",
+    "remember"
+  ],
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ]
+}
