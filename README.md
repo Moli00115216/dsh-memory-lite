@@ -32,7 +32,7 @@ dsh plugin --profile desktop add "D:\path\to\dsh-memory-lite-0.1.0.tgz"
 ### 从 GitHub 源码安装
 
 ```bash
-dsh plugin --profile desktop add "https://github.com/<your-name>/dsh-memory-lite"
+dsh plugin --profile desktop add "https://github.com/Moli00115216/dsh-memory-lite"
 ```
 
 装完重启 DSH。
